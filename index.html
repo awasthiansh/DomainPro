@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DomainPro</title>
+    <!-- Link to external CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header section containing the title and developer names -->
+        <header class="header">
+            <h1 class="title">DomainPro</h1>
+            <p class="developers">Developed by: Anshika Awasthi</p>
+        </header>
+        <main class="main">
+            <!-- Search box section for inputting the domain and fetching information -->
+            <div class="search-box">
+                <label for="domain">Enter Domain:</label>
+                <input type="text" id="domain" placeholder="e.g., google.com">
+                <button id="fetch-button">Fetch Information</button>
+            </div>
+            <!-- Results section containing tables for displaying fetched information -->
+            <div class="results">
+                <!-- Table for displaying Whois information -->
+                <div class="results-table" id="whois-table">
+                    <h2>Whois Information</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Field</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <!-- Table for displaying BuiltWith information -->
+                <div class="results-table" id="builtwith-table">
+                    <h2>BuiltWith Information</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Category</th>
+                                <th>Details</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+                <!-- Table for displaying IP Geolocation information -->
+                <div class="results-table" id="geolocation-table">
+                    <h2>IP Geolocation</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Field</th>
+                                <th>Value</th>
+                            </tr>
+                        </thead>
+                        <tbody></tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- Link to external JavaScript file for handling dynamic functionality -->
+    <script src="script.js"></script>
+</body>
+</html>

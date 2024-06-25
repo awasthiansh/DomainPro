@@ -1,0 +1,112 @@
+/* General body styles */
+body {
+    font-family: sans-serif; /* Use sans-serif font for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    background-color: #1f1f1f; /* Set dark background color */
+    color: #00ff00; /* Set text color to green */
+}
+
+/* Container for centering content and setting maximum width */
+.container {
+    max-width: 1024px; /* Maximum width of container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+}
+
+/* Header styles */
+.header {
+    text-align: center; /* Center align text */
+    margin-bottom: 20px; /* Add space below the header */
+}
+
+/* Title styles */
+.title {
+    font-size: 2em; /* Increase font size for title */
+}
+
+/* Developer names paragraph styles */
+.developers {
+    font-size: 0.8em; /* Decrease font size for developer names */
+    margin-top: 5px; /* Add space above the paragraph */
+}
+
+/* Main content styles */
+.main {
+    display: flex; /* Use flexbox layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center align items horizontally */
+    gap: 20px; /* Add space between flex items */
+}
+
+/* Search box styles */
+.search-box {
+    display: flex; /* Use flexbox layout */
+    align-items: center; /* Center align items vertically */
+    gap: 10px; /* Add space between flex items */
+}
+
+/* Domain input field styles */
+#domain {
+    padding: 5px; /* Add padding inside the input field */
+    border: 1px solid #00ff00; /* Green border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #2b2b2b; /* Dark background color */
+    color: #00ff00; /* Change text color to green */
+}
+
+/* Fetch button styles */
+#fetch-button {
+    background-color: #00ff00; /* Green background color */
+    color: #1f1f1f; /* Dark text color */
+    padding: 8px 16px; /* Add padding inside the button */
+    border: none; /* Remove default border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Results container styles */
+.results {
+    display: flex; /* Use flexbox layout */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: space-between; /* Distribute items evenly */
+    width: 100%; /* Full width of parent container */
+}
+
+/* Results table container styles */
+.results-table {
+    width: 100%; /* Make the table span the entire width */
+    background-color: #1f1f1f; /* Dark background color */
+    border: 1px solid #00ff00; /* Green border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px; /* Add padding inside the container */
+    margin-bottom: 10px; /* Add space below the container */
+    overflow-x: auto; /* Add horizontal scroll if needed */
+}
+
+/* Results table heading styles */
+.results-table h2 {
+    margin-bottom: 5px; /* Add space below the heading */
+    color: #00ff00; /* Green text color */
+}
+
+/* Table styles */
+table {
+    width: 100%; /* Full width of parent container */
+    border-collapse: collapse; /* Ensure cells do not have space between them */
+}
+
+/* Table header and cell styles */
+table th,
+table td {
+    padding: 8px; /* Add padding inside cells */
+    border: 1px solid #00ff00; /* Green border */
+    color: #00ff00; /* Green text color */
+}
+
+/* Table header styles */
+table th {
+    background-color: #1f1f1f; /* Dark background color */
+    font-weight: bold; /* Bold text */
+    text-align: left; /* Left align text */
+}
